@@ -6,5 +6,7 @@
   "retry_join": [
     "172.19.0.2",
     " 172.19.0.3"
-  ]
+  ],
+  "node_name": "consulserver03",
+  "encrypt": "run the consul keygen command and add the key here"
 }

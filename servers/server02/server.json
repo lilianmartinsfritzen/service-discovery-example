@@ -4,7 +4,8 @@
   "bootstrap_expect": 3,
   "data_dir": "/tmp",
   "retry_join": [
-    "172.19.0.2",
-    " 172.19.0.4"
-  ]
+    "172.19.0.2"
+  ],
+  "node_name": "consulserver02",
+  "encrypt": "run the consul keygen command and add the key here"
 }
