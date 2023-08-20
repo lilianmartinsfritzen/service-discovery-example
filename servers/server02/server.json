@@ -1,11 +1,11 @@
 {
   "server": true,
-  "bind_addr": "172.19.0.3",
+  "bind_addr": "172.21.0.2",
   "bootstrap_expect": 3,
   "data_dir": "/tmp",
+  "encrypt": "run the consul keygen command and add the key here",
   "retry_join": [
-    "172.19.0.2"
+    "172.21.0.4"
   ],
-  "node_name": "consulserver02",
-  "encrypt": "run the consul keygen command and add the key here"
+  "node_name": "consulserver02"
 }
