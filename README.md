@@ -8,11 +8,13 @@ Discovering services in a distributed environment can be challenging. With multi
 
 In scenarios where applications communicate, like App A calling App B which in turn calls App C, knowing the machine being called becomes crucial. This involves knowing the IP, port, or subdomain linked to an IP through DNS.
 
-![Scenario 1](https://github.com/lilianmartinsfritzen/service-discovery-example/assets/83084256/e71fcbf6-7505-44a7-ab99-377ad6123f40)
+![Scenario 1](https://github.com/lilianmartinsfritzen/service-discovery-example/assets/83084256/46edd1dc-4712-48d0-89c7-55debdb2ace2)
+
 
 As the usage of App B increases, new instances are created to manage load. This raises questions about which instance of App B App A should call, selection criteria, and readiness of new instances.
 
-![Scenario 2](https://github.com/lilianmartinsfritzen/service-discovery-example/assets/83084256/fc2e9dbc-f366-437d-8be6-79bff6b24f9d)
+![Scenario 2](https://github.com/lilianmartinsfritzen/service-discovery-example/assets/83084256/a6a0d768-8903-4ad3-adc7-0859ae9f02dd)
+
 
 Challenges emerge:
 
